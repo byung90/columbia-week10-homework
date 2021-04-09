@@ -1,0 +1,22 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byung90/columbia-week10-homework.git"
+  },
+  "author": "Byungwook Yoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byung90/columbia-week10-homework/issues"
+  },
+  "homepage": "https://github.com/byung90/columbia-week10-homework#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
