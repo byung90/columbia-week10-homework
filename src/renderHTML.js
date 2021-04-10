@@ -45,12 +45,13 @@ function renderHTML(teamMembers) {
   </body>
   </html>`
 
-
+  // Exporting HTML file
   fs.writeFile('dist/team.html', HTML, err => {
     err ? console.error(err) : console.log('team.html successfully created.');
   })
 }
 
+// Function to add HTML for role specific information
 function roleSpecificData(teamMember) {
   switch (teamMember.constructor.name) {
     case 'Manager':

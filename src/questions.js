@@ -1,3 +1,4 @@
+// Questions for all employees
 const generalQuestions = [
   {
     type: 'input',
@@ -22,6 +23,7 @@ const generalQuestions = [
   }
 ];
 
+// Question for only manager
 const managerQuestions = [
   {
     type: 'input',
@@ -30,6 +32,7 @@ const managerQuestions = [
   }
 ];
 
+// Question for only engineer
 const engineerQuestions = [
   {
     type: 'input',
@@ -38,6 +41,7 @@ const engineerQuestions = [
   }
 ];
 
+// Question for only intern
 const internQuestions = [
   {
     type: 'input',
@@ -46,6 +50,7 @@ const internQuestions = [
   }
 ];
 
+// Question to add more employee
 const addEmployeeQuestion = {
   type: 'confirm',
   name: 'addMoreEmployee',

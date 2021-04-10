@@ -1,6 +1,6 @@
 // const { it, expect } = require('@jest/globals');
 // const { describe } = require('yargs');
-const Intern = require('../lib/intern');
+const Intern = require('../lib/Intern');
 
 describe("Intern", () => {
   describe("isIntern", () => {
@@ -12,8 +12,8 @@ describe("Intern", () => {
     });
 
     // Intern's role should be Intern
-    it("role should be employee"), () => {
+    it("role should be employee", () => {
       expect(intern.getRole()).toEqual('Intern');
-    }
+    })
   })
 });

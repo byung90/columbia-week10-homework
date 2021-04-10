@@ -1,15 +1,15 @@
+// Dependencies
 const inquirer = require('inquirer');
 
-const Manager = require('./lib/manager');
-const Engineer = require('./lib/engineer');
-const Intern = require('./lib/intern');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
 const questions = require('./src/questions');
 const renderHTML = require('./src/renderHTML');
 
 let teamMembers = [];
 
-console.log(questions)
-
+// Function to ask to add more employees
 function askAdditionalEmployee() {
   inquirer
     .prompt(questions.addEmployeeQuestion)
@@ -18,6 +18,7 @@ function askAdditionalEmployee() {
     });
 }
 
+// Function to prompt and add employee
 function addEmployee() {
   inquirer
     .prompt(questions.generalQuestions)
