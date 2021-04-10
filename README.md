@@ -19,7 +19,7 @@ Install all dependencies using npm i
 ## Usage
 1. Answer all of the prompts asked from the  profile generator.
 2. Once all the prompts have been answered, find the team.html file in the dist/ folder.
-![video of generator](https://github.com/byung90/columbia-week10-homework/raw/master/assets/demo.mov)
+Link of demo video: https://github.com/byung90/columbia-week10-homework/raw/master/assets/demo.mov
 
 ## Credits
 N/A
