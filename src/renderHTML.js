@@ -21,8 +21,8 @@ function renderHTML(teamMembers) {
         <header>
           <h1>The Team</h1>
         </header>
-        <div class="row">
-          <div class="col-12">`;
+        <div class="col-12">
+          <div class="row">`;
 
   teamMembers.forEach(teamMember => {
     HTML += `<div class="card col-3">
